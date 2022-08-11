@@ -1,0 +1,26 @@
+---
+title: "functions"
+format: html
+editor: visual
+---
+
+# Function Examples
+
+```{r}
+
+exclaim_age <- function(age) {
+  print(paste("I am", age, "years old!"))
+}
+
+exclaim_age(age = 10)
+
+# function in python
+# def exclaim_age(age):
+#   print("I am", str(age), "years old!")
+# 
+# exclaim_age(age = 10)
+```
+
+# Naming Functions
+
+Functions should be verbs ("get", "compute", "calculate", "determine" and arguments should be nouns
